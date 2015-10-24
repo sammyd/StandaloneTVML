@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22ED557E1BDADE8200CCCEB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ED557D1BDADE8200CCCEB2 /* AppDelegate.swift */; };
+		22ED55851BDADE8200CCCEB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22ED55841BDADE8200CCCEB2 /* Assets.xcassets */; };
+		22ED558E1BDAE86F00CCCEB2 /* MainMenu.tvml in Resources */ = {isa = PBXBuildFile; fileRef = 22ED558D1BDAE86F00CCCEB2 /* MainMenu.tvml */; };
+		22ED55901BDAE87800CCCEB2 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 22ED558F1BDAE87800CCCEB2 /* main.js */; };
+		22ED55921BDAE8E900CCCEB2 /* ResourceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ED55911BDAE8E900CCCEB2 /* ResourceLoader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22ED557A1BDADE8200CCCEB2 /* StandaloneTVML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StandaloneTVML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22ED557D1BDADE8200CCCEB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22ED55841BDADE8200CCCEB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22ED55861BDADE8200CCCEB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22ED558D1BDAE86F00CCCEB2 /* MainMenu.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MainMenu.tvml; sourceTree = "<group>"; };
+		22ED558F1BDAE87800CCCEB2 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		22ED55911BDAE8E900CCCEB2 /* ResourceLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceLoader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22ED55771BDADE8200CCCEB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22ED55711BDADE8200CCCEB2 = {
+			isa = PBXGroup;
+			children = (
+				22ED557C1BDADE8200CCCEB2 /* StandaloneTVML */,
+				22ED557B1BDADE8200CCCEB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22ED557B1BDADE8200CCCEB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22ED557A1BDADE8200CCCEB2 /* StandaloneTVML.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22ED557C1BDADE8200CCCEB2 /* StandaloneTVML */ = {
+			isa = PBXGroup;
+			children = (
+				22ED558C1BDAE85300CCCEB2 /* StaticApp */,
+				22ED557D1BDADE8200CCCEB2 /* AppDelegate.swift */,
+				22ED55911BDAE8E900CCCEB2 /* ResourceLoader.swift */,
+				22ED55841BDADE8200CCCEB2 /* Assets.xcassets */,
+				22ED55861BDADE8200CCCEB2 /* Info.plist */,
+			);
+			path = StandaloneTVML;
+			sourceTree = "<group>";
+		};
+		22ED558C1BDAE85300CCCEB2 /* StaticApp */ = {
+			isa = PBXGroup;
+			children = (
+				22ED558D1BDAE86F00CCCEB2 /* MainMenu.tvml */,
+				22ED558F1BDAE87800CCCEB2 /* main.js */,
+			);
+			name = StaticApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22ED55791BDADE8200CCCEB2 /* StandaloneTVML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22ED55891BDADE8200CCCEB2 /* Build configuration list for PBXNativeTarget "StandaloneTVML" */;
+			buildPhases = (
+				22ED55761BDADE8200CCCEB2 /* Sources */,
+				22ED55771BDADE8200CCCEB2 /* Frameworks */,
+				22ED55781BDADE8200CCCEB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StandaloneTVML;
+			productName = StandaloneTVML;
+			productReference = 22ED557A1BDADE8200CCCEB2 /* StandaloneTVML.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22ED55721BDADE8200CCCEB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Razeware;
+				TargetAttributes = {
+					22ED55791BDADE8200CCCEB2 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 22ED55751BDADE8200CCCEB2 /* Build configuration list for PBXProject "StandaloneTVML" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22ED55711BDADE8200CCCEB2;
+			productRefGroup = 22ED557B1BDADE8200CCCEB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22ED55791BDADE8200CCCEB2 /* StandaloneTVML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22ED55781BDADE8200CCCEB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22ED558E1BDAE86F00CCCEB2 /* MainMenu.tvml in Resources */,
+				22ED55851BDADE8200CCCEB2 /* Assets.xcassets in Resources */,
+				22ED55901BDAE87800CCCEB2 /* main.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22ED55761BDADE8200CCCEB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22ED557E1BDADE8200CCCEB2 /* AppDelegate.swift in Sources */,
+				22ED55921BDAE8E900CCCEB2 /* ResourceLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		22ED55871BDADE8200CCCEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		22ED55881BDADE8200CCCEB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22ED558A1BDADE8200CCCEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = StandaloneTVML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.StandaloneTVML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22ED558B1BDADE8200CCCEB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = StandaloneTVML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.StandaloneTVML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22ED55751BDADE8200CCCEB2 /* Build configuration list for PBXProject "StandaloneTVML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22ED55871BDADE8200CCCEB2 /* Debug */,
+				22ED55881BDADE8200CCCEB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22ED55891BDADE8200CCCEB2 /* Build configuration list for PBXNativeTarget "StandaloneTVML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22ED558A1BDADE8200CCCEB2 /* Debug */,
+				22ED558B1BDADE8200CCCEB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22ED55721BDADE8200CCCEB2 /* Project object */;
+}

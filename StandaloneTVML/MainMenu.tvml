@@ -1,0 +1,12 @@
+<document>
+   <alertTemplate>
+      <title>Update to premium</title>
+      <description>Go ad free by updating to the premium version</description>
+      <button>
+         <text>Update Now</text>
+      </button>
+      <button>
+         <text>Cancel</text>
+      </button>
+   </alertTemplate>
+</document>
